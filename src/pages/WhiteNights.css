@@ -1,0 +1,79 @@
+.white-nights-bg {
+  background-color: #333; 
+  min-height: 100vh;
+  padding: 4rem 2rem 2rem;
+  box-sizing: border-box;
+  color: #e0e0e0;
+  overflow-y: auto; /* dozvoljava skrolovanje na manjim ekranima */
+}
+
+.white-nights-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #c9a66b; 
+  margin-bottom: 2rem;
+  font-family: 'Georgia', serif; 
+}
+
+.white-nights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+  gap: 4rem;
+}
+
+.white-nights-card {
+  background-color: #2a2a2a; 
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; 
+}
+
+.white-nights-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); 
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #000000; 
+}
+
+/* Tablet uređaji */
+@media (max-width: 768px) {
+  .white-nights-title {
+    font-size: 2.2rem;
+  }
+
+  .white-nights-card {
+    padding: 1.2rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+  }
+}
+
+/* Mobilni uređaji */
+@media (max-width: 480px) {
+  .white-nights-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .white-nights-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .quote-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .white-nights-title {
+    font-size: 1.8rem;
+  }
+}

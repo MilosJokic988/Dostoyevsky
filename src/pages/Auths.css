@@ -1,0 +1,55 @@
+
+
+.auth-page {
+  min-height: 100vh;
+  background: url('../assets/images/dostoyevsky-bg.png') no-repeat center center/cover;
+  display: flex;
+  background-position: 50% 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background: rgba(42, 42, 42, 0.9); /* tamna providna pozadina */
+  border-radius: 8px;
+  color: #f0e6d2;
+  font-family: 'Georgia', serif;
+}
+  .auth-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #c9a66b;
+  }
+  .auth-form div {
+    margin-bottom: 1rem;
+  }
+  .auth-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .auth-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #181818;
+    color: #f0e6d2;
+  }
+  .auth-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #c9a66b;
+    border: none;
+    border-radius: 4px;
+    color: #181818;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .auth-form button:hover {
+    background: #a67d3d;
+  }
+  

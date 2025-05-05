@@ -1,0 +1,46 @@
+.karamazov-bg {
+    background-color: #181818;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    color: #f0e6d2;
+    font-family: 'Georgia', serif;
+  }
+  
+  .karamazov-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #c9a66b;
+    margin-bottom: 2rem;
+  }
+  
+  .manuscript-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .manuscript {
+   background-color: white;
+    padding: 1rem 1.2rem;
+    border: 1px solid #c9a66b;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+  }
+  
+  .manuscript:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  .manuscript-text {
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: #3b2f1f;
+    cursor: pointer;
+  }
+  
